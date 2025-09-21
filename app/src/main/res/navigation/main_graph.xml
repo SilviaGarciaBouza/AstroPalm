@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/horoscopeFragment"
-        android:name="com.github.horosapp.ui.HoroscopeFragment"
+        android:name="com.github.horosapp.ui.horoscope.HoroscopeFragment"
         android:label="fragment_horoscope"
         tools:layout="@layout/fragment_horoscope" />
     <fragment
@@ -17,7 +17,7 @@
         tools:layout="@layout/fragment_palmisty" />
     <fragment
         android:id="@+id/luckFragment"
-        android:name="com.github.horosapp.ui.LuckFragment"
+        android:name="com.github.horosapp.ui.luck.LuckFragment"
         android:label="fragment_luck"
         tools:layout="@layout/fragment_luck" />
 </navigation>

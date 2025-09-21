@@ -8,7 +8,10 @@ import android.view.ViewGroup
 import com.github.horosapp.R
 import com.github.horosapp.databinding.FragmentLuckBinding
 import com.github.horosapp.databinding.FragmentPalmistyBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+//Para que reciba cosas inyectadas
+@AndroidEntryPoint
 
 class PalmistyFragment : Fragment() {
     private var _binding: FragmentPalmistyBinding?=null

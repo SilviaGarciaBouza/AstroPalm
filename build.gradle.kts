@@ -2,4 +2,7 @@
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
+    /*daggerHilt: inyccn de depndencias 3/4*/
+    id("com.google.dagger.hilt.android") version "2.48" apply false
+
 }

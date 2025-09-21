@@ -1,17 +1,18 @@
-package com.github.horosapp.ui
+package com.github.horosapp.ui.luck
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.github.horosapp.R
-import com.github.horosapp.databinding.FragmentHoroscopeBinding
+import androidx.fragment.app.Fragment
 import com.github.horosapp.databinding.FragmentLuckBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+//Para que reciba cosas inyectadas
+@AndroidEntryPoint
 class LuckFragment : Fragment() {
-   private var _binding: FragmentLuckBinding?=null
+
+    private var _binding: FragmentLuckBinding?=null
     private val binding get()= _binding!!
 
     override fun onCreateView(
